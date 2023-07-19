@@ -1,0 +1,15 @@
+img.h-65px.logo
+{
+    -webkit-filter: brightness;
+    filter: invert(1);
+}
+
+.card_telefono{
+	height: 13vw;
+    width: 10vw;
+    margin: auto;
+}
+
+.descrip_pro{
+	text-align: center;
+}
