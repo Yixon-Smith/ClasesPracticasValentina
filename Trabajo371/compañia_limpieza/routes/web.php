@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+// 
+Auth::routes();
+Route::get('/', [App\Http\Controllers\HomeController::class, 'login']);
+Route::middleware(['auth', 'verified'])->group(function () {
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/productos', [App\Http\Controllers\ProductoController::class, 'index'])->name('productos.index');
@@ -25,5 +29,5 @@ Route::get('/productos/registro', [App\Http\Controllers\ProductoController::clas
 // Route::pus('/productos/registro', [App\Http\Controllers\ProductoController::class, 'index'])->name('productos.index');
 
 // Route::destroy('/productos/registro', [App\Http\Controllers\ProductoController::class, 'index'])->name('productos.index');
-
+ });
 
