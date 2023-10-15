@@ -1,0 +1,129 @@
+.center-contenedor{
+    position: relative;
+    width: 71%;
+    margin: 0 auto;
+}
+.bt-solid-color{
+    border-top: 4px solid #6a6a6a
+}
+.title{
+    font-size: 36px;
+    text-align: center;
+    color: #545454;
+}
+.sub-titles{
+    font-size: 16px;
+    color: #5c5c5c;
+}
+.f-sizes{
+    font-size: 22px;
+    color: #5c5c5c;
+}
+
+
+.step_by_step{
+    border-top: solid #f1f1f1
+}
+.bg-step{
+    background: #f5f8fa;
+}
+.fon-size-icono{
+    font-size: 25px;
+}
+.border-lef-color{
+    border-left: solid #74d6d9;
+}
+.fspa-1 {
+    letter-spacing: .025rem;
+}
+
+.breadcrumb .breadcrumb-item:after {
+    content: "";
+    padding-left: 0.5rem;
+}
+.fs-11px{
+    font-size: 11px;
+}
+
+
+.w-295{
+    width: 295px;
+    cursor: pointer;
+}
+.p-box{
+    padding: 3px 3px 4px 9px;
+}
+.title-menu{
+    font-size: 13px;
+}
+.st-menu{
+    font-size: 10px;
+    color: #747474;
+}
+.menu-link-user {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    flex: 0 0 100%;
+    padding: 5px;
+    transition: none;
+    margin: 0;
+    outline: none !important;
+}
+
+.a-link:hover{
+    color: #009EF7;
+}
+
+.a-h{
+    color: #313131;
+    text-decoration: none;
+}
+.a-h:hover {
+    color: #009EF7;
+    text-decoration: none;
+}
+.borde-top-color{
+    border-bottom: 1px solid #e7e7e7;
+}
+.accordion-button-coment {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 6px 1px;
+    font-size: 10px;
+    margin-top: 9px;
+    color: #181C32;
+    text-align: left;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+}
+.box-coment{
+    padding: 44px 16px 17px 76px;
+}
+.box-borde-coment{
+    border-left: 1px solid #dfdfdf;
+    padding: 1px 14px;
+}
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fs-10txt{
+    font-size: 10px;
+}
+.bt-blue{
+    border-top: 4px solid #9e77f1;
+}
+.fs-12-link{
+    font-size: 14px;
+}
+.z-i-0{
+    z-index: 1;
+}

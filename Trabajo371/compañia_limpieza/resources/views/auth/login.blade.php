@@ -47,22 +47,22 @@
 			<!--begin::Authentication - Sign-in -->
 			<div class="d-flex flex-column flex-lg-row flex-column-fluid">
 				<!--begin::Aside-->
-				<div class="d-flex flex-column flex-lg-row-auto w-xl-600px positon-xl-relative" style="background-color: #51bbf7">
+				<div class="d-flex flex-column flex-lg-row-auto w-xl-600px positon-xl-relative" style="background-color: ##ffffff">
 					<!--begin::Wrapper-->
 					<div class="d-flex flex-column position-xl-fixed top-0 bottom-0 w-xl-600px scroll-y">
 						<!--begin::Content-->
 						<div class="d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20">
 							<!--begin::Logo-->
 							<a href="http://www.unefa.edu.ve/" class="py-9 mb-5">
-								<img alt="Logo" src="/m2/assets/media/logos/logo-unefadash.png" class="h-60px logo_login">
+								<img alt="Logo" src="/m2/assets/media/logos/universidad-nacional-abierta-logo.png" class="h-60px logo_login">
 							</a>
 							<!--end::Logo-->
 							<!--begin::Title-->
-							<h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: #05156f;">Bienvenido a SystCSCUnefa</h1>
+							<h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: #05156f;">Bienvenido a Servis.C.A</h1>
 							<!--end::Title-->
 							<!--begin::Description-->
-							<p class="fw-bold fs-2" style="color: #05156f;">SystCSCUnefa sistema de gestion de
-							<br>Documentos Digitales</p>
+							<p class="fw-bold fs-2" style="color: #05156f;">Sistema de gestion de
+							<br>Inventario</p>
 							<!--end::Description-->
 						</div>
 						<!--end::Content-->
@@ -88,7 +88,7 @@
                                 @csrf
 								<div class="text-center mb-10">
 									<!--begin::Title-->
-									<h1 class="text-muted mb-3">Acceder a SystCSCUnefa</h1>
+									<h1 class="text-muted mb-3">Acceder a Servis.C.A</h1>
 									<!--end::Title-->
 									<!--begin::Link-->
 									<div class="text-gray-400 fw-bold fs-4">No tienes cuenta?
