@@ -39,7 +39,7 @@
                         <span class="menu-section text-muted text-uppercase fs-8 ls-1">Secretaria</span>
                     </div>
                 </div>
-                @can('isAdmin')
+
                 <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                     <span class="menu-link">
                         <span class="menu-icon">
@@ -58,7 +58,7 @@
 
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('estudiantedatos.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -70,7 +70,7 @@
 
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('profesoresdatos.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -82,7 +82,7 @@
 
 
                 </div>
-                @endcan
+
 
 
 
@@ -105,7 +105,7 @@
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
 
-                            <a class="menu-link  " href="{{route('expedientes.ingsistemas.index')}}">
+                            <a class="menu-link  " href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -115,7 +115,7 @@
                     </div>
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('expedientes.ingelectrica.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -125,7 +125,7 @@
                     </div>
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('expedientes.ingagronomica.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -135,7 +135,7 @@
                     </div>
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('expedientes.administracion.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('expedientes.enfermeria.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -155,7 +155,7 @@
                     </div>
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('expedientes.economia.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -182,7 +182,7 @@
                     </span>
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('expedientes.carreras.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -220,7 +220,7 @@
 
                      <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('estudiantedatos.index_cc_estudiante')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -232,7 +232,7 @@
 
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('serviciocomunitario.listfaseone')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -244,7 +244,7 @@
 
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('serviciocomunitario.listfasetwo')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -256,7 +256,7 @@
 
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('serviciocomunitario.listfasefinal')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -268,7 +268,7 @@
 
                     <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('reporte.index')}}">
+                            <a class="menu-link" href="">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -290,7 +290,7 @@
                 </div>
                 <div class="menu-item">
                     <!--begin:Menu link-->
-                    <a class="menu-link" href="{{route('user.index')}}"><span class="menu-icon"><!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
+                    <a class="menu-link" href=""><span class="menu-icon"><!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
                             <span class="svg-icon svg-icon-2">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6.28548 15.0861C7.34369 13.1814 9.35142 12 11.5304 12H12.4696C14.6486 12 16.6563 13.1814 17.7145 15.0861L19.3493 18.0287C20.0899 19.3618 19.1259 21 17.601 21H6.39903C4.87406 21 3.91012 19.3618 4.65071 18.0287L6.28548 15.0861Z" fill="currentColor"></path>
@@ -305,7 +305,7 @@
                 @can('role_index')
                 <div class="menu-item">
                     <!--begin:Menu link-->
-                    <a class="menu-link" href="{{ route('roles.index') }}"><span class="menu-icon"><!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
+                    <a class="menu-link" href=""><span class="menu-icon"><!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
                             <span class="svg-icon svg-icon-2">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6.28548 15.0861C7.34369 13.1814 9.35142 12 11.5304 12H12.4696C14.6486 12 16.6563 13.1814 17.7145 15.0861L19.3493 18.0287C20.0899 19.3618 19.1259 21 17.601 21H6.39903C4.87406 21 3.91012 19.3618 4.65071 18.0287L6.28548 15.0861Z" fill="currentColor"></path>
@@ -318,10 +318,10 @@
                     </a><!--end:Menu link-->
                 </div>
                 @endcan
-                @can('permission_index')
+
                 <div class="menu-item">
                     <!--begin:Menu link-->
-                    <a class="menu-link" href="{{ route('permissions.index') }}"><span class="menu-icon"><!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
+                    <a class="menu-link" href=""><span class="menu-icon"><!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
                             <span class="svg-icon svg-icon-2">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6.28548 15.0861C7.34369 13.1814 9.35142 12 11.5304 12H12.4696C14.6486 12 16.6563 13.1814 17.7145 15.0861L19.3493 18.0287C20.0899 19.3618 19.1259 21 17.601 21H6.39903C4.87406 21 3.91012 19.3618 4.65071 18.0287L6.28548 15.0861Z" fill="currentColor"></path>
@@ -333,7 +333,7 @@
                         <span class="menu-title">Permisos</span>
                     </a><!--end:Menu link-->
                 </div>
-                @endcan
+
                 <div class="menu-item">
                     <div class="menu-content">
                         <div class="separator mx-1 my-4"></div>
@@ -347,7 +347,7 @@
     <!--end::Aside menu-->
     <!--begin::Footer-->
     <div class="aside-footer flex-column-auto pt-5 pb-7 px-5" id="kt_aside_footer">
-        <form action="{{route('logout')}}" method="POST">
+        <form action="" method="POST">
             @csrf
             <button  class="btn btn-custom btn-primary w-100" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss-="click" title="Salir del sistema">
                 <span class="btn-label">Salir</span>

@@ -3,7 +3,7 @@
 <html lang="en">
 	<!--begin::Head-->
 	<head>
-		<title>SystUnefa</title>
+		<title>Servis.C.A</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
 		<meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
@@ -14,7 +14,7 @@
 		<meta property="og:url" content="https://keenthemes.com/metronic" />
 		<meta property="og:site_name" content="Keenthemes | Metronic" />
 		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-		<link rel="shortcut icon" href="{{asset('m2/assets/media/logos/logo-unefa.ico')}}" />
+		<link rel="shortcut icon" href="{{asset('m2/assets/media/logos/universidad-nacional-abierta-logo.ico')}}" />
         <!--BOOSTSTRAP 5 -->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -127,7 +127,7 @@
 	<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed" style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
 		<!--Begin::Google Tag Manager (noscript) -->
         <div class="loader">
-            <img class="logo_loader" src="{{asset('logo_unefa.png')}}" alt="">
+            <img class="logo_loader" src="{{asset('universidad-nacional-abierta-logo.png')}}" alt="">
         </div>
 		<noscript>
 			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FS8GGP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -164,7 +164,7 @@
 							<!--begin::Mobile logo-->
 							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
 								<a href="/m2/../demo1/index.html" class="d-lg-none">
-									<img alt="Logo" src="/m2/assets/media/logos/logo-unefa.svg" class="h-30px" />
+									<img alt="Logo" src="/m2/assets/media/logos/universidad-nacional-abierta-logo.svg" class="h-30px" />
 								</a>
 							</div>
 							<!--end::Mobile logo-->
